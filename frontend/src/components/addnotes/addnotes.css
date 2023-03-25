@@ -1,0 +1,139 @@
+.addnotes-content{
+  margin-top:5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.addnotespage-main-container{
+  /* background-image: linear-gradient(to right, #8e2de2, #4a00e0); */
+  /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+  /* background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% ); */
+  background-image: url('https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.addnotespage-block{
+  width: 50%;
+}
+.addnotespage-form{
+  display: flex;
+  flex-direction: column;
+  padding: 10% 15%;
+}
+
+.addnotespage-form input{
+  margin-bottom: 10px;
+  height: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.addnotespage-form textarea{
+  height: 160px;
+  padding-top: 10px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.addnotes-label{
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(75, 71, 71);
+}
+
+.addnotes-button-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+
+
+.addnotes-submit-button{
+  padding: 8px 50px;
+  margin-top: 15px;
+  background: black;
+  border: none;
+  opacity: 1;
+  color: white;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.addnotes-submit-button:hover{
+  padding: 8px 60px;
+  margin-top: 15px;
+  background: black;
+  border: none;
+  opacity: 1;
+  color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 30px 5px 10px 0;
+  overflow: visible;
+  padding: 12px 50px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
