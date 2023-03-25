@@ -37,10 +37,10 @@ const signup = async ( req,res ) =>{
       email,
       password 
     } = req.body
-    const find = Person.find({email:email})
-    if(find){
-      return res.status(409).json({message:"Already registerd"})
-    }
+//     const find = Person.find({email:email})
+//     if(find){
+//       return res.status(409).json({message:"Already registerd"})
+//     }
     const salt = await bcrypt.genSalt();
     const passwordHash = await bcrypt.hash(password, salt)
 
